@@ -16,7 +16,7 @@ public class client {
 			InetSocketAddress inetsocketadress=new InetSocketAddress(InetAdress,1234);
 			Socket s=new Socket();
 			s.connect(inetsocketadress);
-			System.out.println("salem");
+			System.out.println("Connected");
 			InputStream is=s.getInputStream();
 			OutputStream os=s.getOutputStream();
 			Scanner scanner =new Scanner(System.in);
